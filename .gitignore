@@ -1,0 +1,20 @@
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+*.app
+*.log
+.obsidian/
+chrome-debug.log
+switch-debug.log
+
+# Kept on the owner's Mac, not published (planning docs and notes)
+mevin-prd-*.md
+mevin-vision.md
+docs/
+CLAUDE.md
+STATUS.md
+Section 6.jpg
+/Assets.xcassets/
+dist/

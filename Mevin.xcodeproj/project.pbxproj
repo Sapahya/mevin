@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000000000000000000001 /* MevinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000001 /* MevinApp.swift */; };
+		A1000000000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000002 /* Models.swift */; };
+		A1000000000000000000003 /* JSONProfileStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000003 /* JSONProfileStore.swift */; };
+		A1000000000000000000004 /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000004 /* LaunchService.swift */; };
+		A1000000000000000000005 /* ChromeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000005 /* ChromeService.swift */; };
+		A1000000000000000000006 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000006 /* AppDelegate.swift */; };
+		A1000000000000000000007 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000007 /* AppModel.swift */; };
+		A1000000000000000000008 /* MenuRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000008 /* MenuRootView.swift */; };
+		A1000000000000000000009 /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000009 /* ProfileListView.swift */; };
+		A100000000000000000000A /* NewProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000A /* NewProfileView.swift */; };
+		A100000000000000000000B /* PanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000B /* PanelController.swift */; };
+		A100000000000000000000D /* ProfileBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000D /* ProfileBuilderView.swift */; };
+		A100000000000000000000E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B100000000000000000000E /* Assets.xcassets */; };
+		A1000000000000000000010 /* ProfileColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000010 /* ProfileColor.swift */; };
+		A1000000000000000000011 /* ProfileCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000011 /* ProfileCard.swift */; };
+		1DE2490ADD5A4551938B63AE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360E4B41A41143CB98767E22 /* SettingsView.swift */; };
+		A0A2DF2A8DE34C38B4ECB7D0 /* ActiveRoleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45E275A0C474DB9B1569CE2 /* ActiveRoleSection.swift */; };
+		960D702BF86E431298A83E1A /* MevinComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22DD90328BE4CDE9A748B89 /* MevinComponents.swift */; };
+		A1000000000000000000012 /* KeepOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000012 /* KeepOpenView.swift */; };
+		A1000000000000000000013 /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000013 /* ClaudeService.swift */; };
+		A1000000000000000000014 /* FigmaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000014 /* FigmaService.swift */; };
+		A1000000000000000000015 /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000015 /* KeychainService.swift */; };
+		A1000000000000000000016 /* AIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000016 /* AIProvider.swift */; };
+		A1000000000000000000017 /* AppMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000017 /* AppMatcher.swift */; };
+		A1000000000000000000018 /* VisionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000018 /* VisionService.swift */; };
+		A1000000000000000000019 /* AISettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000019 /* AISettingsView.swift */; };
+		A100000000000000000001A /* ProposalSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000001A /* ProposalSheet.swift */; };
+		A100000000000000000001B /* SwitchPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000001B /* SwitchPlan.swift */; };
+		A100000000000000000001C /* SlackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000001C /* SlackService.swift */; };
+		A100000000000000000001D /* SessionCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000001D /* SessionCapture.swift */; };
+		96518A87C98F4EFD86408D3B /* SessionClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6685089A90E3444F8EF3DD9E /* SessionClock.swift */; };
+		A100000000000000000001E /* FocusTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000001E /* FocusTracker.swift */; };
+		A100000000000000000001F /* AppStateReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000001F /* AppStateReader.swift */; };
+		A1000000000000000000020 /* MevinConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000020 /* MevinConfig.swift */; };
+		A1000000000000000000021 /* WindowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000021 /* WindowService.swift */; };
+		A1000000000000000000022 /* WindowClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000022 /* WindowClassifier.swift */; };
+		A1000000000000000000023 /* AccessibilityWindowControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000023 /* AccessibilityWindowControl.swift */; };
+		A1000000000000000000024 /* RoleTeardown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000024 /* RoleTeardown.swift */; };
+		A1000000000000000000025 /* TerminalStartupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000025 /* TerminalStartupService.swift */; };
+		A1000000000000000000026 /* ChromeProfileOCR.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000026 /* ChromeProfileOCR.swift */; };
+		A1000000000000000000027 /* ChromeProfileAccessibilityReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000027 /* ChromeProfileAccessibilityReader.swift */; };
+		A1000000000000000000028 /* ChromeProfileDetectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000028 /* ChromeProfileDetectionService.swift */; };
+		A1000000000000000000029 /* ChromeWindowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000029 /* ChromeWindowService.swift */; };
+		A100000000000000000002A /* KeepOpenPanelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000002A /* KeepOpenPanelHelper.swift */; };
+		A100000000000000000002B /* TerminalCommandFingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000002B /* TerminalCommandFingerprint.swift */; };
+		A100000000000000000002C /* TerminalTabMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000002C /* TerminalTabMatcher.swift */; };
+		A100000000000000000002D /* KeepOpenConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000002D /* KeepOpenConfirmView.swift */; };
+		A100000000000000000002E /* QuitAllTabsConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000002E /* QuitAllTabsConfirmView.swift */; };
+		A100000000000000000002F /* AppModel+SessionV7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B100000000000000000002F /* AppModel+SessionV7.swift */; };
+		A1000000000000000000030 /* AwakeTimeTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000030 /* AwakeTimeTracker.swift */; };
+		A1000000000000000000031 /* RoleUsageStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000031 /* RoleUsageStats.swift */; };
+		A1000000000000000000032 /* MevinNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000032 /* MevinNotificationService.swift */; };
+		A1000000000000000000034 /* SessionCardStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000034 /* SessionCardStyles.swift */; };
+		A1000000000000000000035 /* SessionCardTimerPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000000000000000000035 /* SessionCardTimerPopup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1000000000000000000000 /* Mevin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mevin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000000000000000000001 /* MevinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MevinApp.swift; sourceTree = "<group>"; };
+		B1000000000000000000002 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B1000000000000000000003 /* JSONProfileStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONProfileStore.swift; sourceTree = "<group>"; };
+		B1000000000000000000004 /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
+		B1000000000000000000005 /* ChromeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeService.swift; sourceTree = "<group>"; };
+		B1000000000000000000006 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1000000000000000000007 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B1000000000000000000008 /* MenuRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRootView.swift; sourceTree = "<group>"; };
+		B1000000000000000000009 /* ProfileListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileListView.swift; sourceTree = "<group>"; };
+		B100000000000000000000A /* NewProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileView.swift; sourceTree = "<group>"; };
+		B100000000000000000000B /* PanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelController.swift; sourceTree = "<group>"; };
+		B100000000000000000000D /* ProfileBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBuilderView.swift; sourceTree = "<group>"; };
+		B100000000000000000000E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B100000000000000000000F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1000000000000000000010 /* ProfileColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileColor.swift; sourceTree = "<group>"; };
+		B1000000000000000000011 /* ProfileCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCard.swift; sourceTree = "<group>"; };
+		360E4B41A41143CB98767E22 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B45E275A0C474DB9B1569CE2 /* ActiveRoleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveRoleSection.swift; sourceTree = "<group>"; };
+		F22DD90328BE4CDE9A748B89 /* MevinComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MevinComponents.swift; sourceTree = "<group>"; };
+		B1000000000000000000012 /* KeepOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepOpenView.swift; sourceTree = "<group>"; };
+		B1000000000000000000013 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
+		B1000000000000000000014 /* FigmaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaService.swift; sourceTree = "<group>"; };
+		B1000000000000000000015 /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
+		B1000000000000000000016 /* AIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProvider.swift; sourceTree = "<group>"; };
+		B1000000000000000000017 /* AppMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMatcher.swift; sourceTree = "<group>"; };
+		B1000000000000000000018 /* VisionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionService.swift; sourceTree = "<group>"; };
+		B1000000000000000000019 /* AISettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AISettingsView.swift; sourceTree = "<group>"; };
+		B100000000000000000001A /* ProposalSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalSheet.swift; sourceTree = "<group>"; };
+		B100000000000000000001B /* SwitchPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchPlan.swift; sourceTree = "<group>"; };
+		B100000000000000000001C /* SlackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlackService.swift; sourceTree = "<group>"; };
+		B100000000000000000001D /* SessionCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCapture.swift; sourceTree = "<group>"; };
+		6685089A90E3444F8EF3DD9E /* SessionClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionClock.swift; sourceTree = "<group>"; };
+		B100000000000000000001E /* FocusTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTracker.swift; sourceTree = "<group>"; };
+		B100000000000000000001F /* AppStateReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateReader.swift; sourceTree = "<group>"; };
+		B1000000000000000000020 /* MevinConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MevinConfig.swift; sourceTree = "<group>"; };
+		B1000000000000000000021 /* WindowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowService.swift; sourceTree = "<group>"; };
+		B1000000000000000000022 /* WindowClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowClassifier.swift; sourceTree = "<group>"; };
+		B1000000000000000000023 /* AccessibilityWindowControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityWindowControl.swift; sourceTree = "<group>"; };
+		B1000000000000000000024 /* RoleTeardown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleTeardown.swift; sourceTree = "<group>"; };
+		B1000000000000000000025 /* TerminalStartupService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalStartupService.swift; sourceTree = "<group>"; };
+		B1000000000000000000026 /* ChromeProfileOCR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeProfileOCR.swift; sourceTree = "<group>"; };
+		B1000000000000000000027 /* ChromeProfileAccessibilityReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeProfileAccessibilityReader.swift; sourceTree = "<group>"; };
+		B1000000000000000000028 /* ChromeProfileDetectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeProfileDetectionService.swift; sourceTree = "<group>"; };
+		B1000000000000000000029 /* ChromeWindowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeWindowService.swift; sourceTree = "<group>"; };
+		B100000000000000000002A /* KeepOpenPanelHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepOpenPanelHelper.swift; sourceTree = "<group>"; };
+		B100000000000000000002B /* TerminalCommandFingerprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalCommandFingerprint.swift; sourceTree = "<group>"; };
+		B100000000000000000002C /* TerminalTabMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalTabMatcher.swift; sourceTree = "<group>"; };
+		B100000000000000000002D /* KeepOpenConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepOpenConfirmView.swift; sourceTree = "<group>"; };
+		B100000000000000000002E /* QuitAllTabsConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuitAllTabsConfirmView.swift; sourceTree = "<group>"; };
+		B100000000000000000002F /* AppModel+SessionV7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppModel+SessionV7.swift"; sourceTree = "<group>"; };
+		B1000000000000000000030 /* AwakeTimeTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwakeTimeTracker.swift; sourceTree = "<group>"; };
+		B1000000000000000000031 /* RoleUsageStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleUsageStats.swift; sourceTree = "<group>"; };
+		B1000000000000000000032 /* MevinNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MevinNotificationService.swift; sourceTree = "<group>"; };
+		B1000000000000000000034 /* SessionCardStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardStyles.swift; sourceTree = "<group>"; };
+		B1000000000000000000035 /* SessionCardTimerPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCardTimerPopup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D1000000000000000000002 /* Mevin */,
+				D1000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1000000000000000000002 /* Mevin */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000001 /* MevinApp.swift */,
+				B100000000000000000000E /* Assets.xcassets */,
+				B100000000000000000000F /* Info.plist */,
+				D100000000000000000000A /* App */,
+				D1000000000000000000004 /* Models */,
+				D1000000000000000000005 /* Persistence */,
+				D1000000000000000000006 /* Services */,
+				D1000000000000000000007 /* Menu */,
+				D1000000000000000000008 /* EndSession */,
+				D1000000000000000000009 /* Builder */,
+			);
+			path = Mevin;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000000 /* Mevin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000002 /* Models.swift */,
+				B1000000000000000000010 /* ProfileColor.swift */,
+				B1000000000000000000020 /* MevinConfig.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000005 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000003 /* JSONProfileStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000004 /* LaunchService.swift */,
+				B1000000000000000000005 /* ChromeService.swift */,
+				B1000000000000000000013 /* ClaudeService.swift */,
+				B1000000000000000000014 /* FigmaService.swift */,
+				B1000000000000000000015 /* KeychainService.swift */,
+				B1000000000000000000016 /* AIProvider.swift */,
+				B1000000000000000000017 /* AppMatcher.swift */,
+				B1000000000000000000018 /* VisionService.swift */,
+				B100000000000000000001B /* SwitchPlan.swift */,
+				B100000000000000000001C /* SlackService.swift */,
+				B100000000000000000001D /* SessionCapture.swift */,
+				6685089A90E3444F8EF3DD9E /* SessionClock.swift */,
+				B100000000000000000001E /* FocusTracker.swift */,
+				B100000000000000000001F /* AppStateReader.swift */,
+				B1000000000000000000021 /* WindowService.swift */,
+				B1000000000000000000022 /* WindowClassifier.swift */,
+				B1000000000000000000023 /* AccessibilityWindowControl.swift */,
+				B1000000000000000000024 /* RoleTeardown.swift */,
+				B1000000000000000000025 /* TerminalStartupService.swift */,
+				B1000000000000000000026 /* ChromeProfileOCR.swift */,
+				B1000000000000000000027 /* ChromeProfileAccessibilityReader.swift */,
+				B1000000000000000000028 /* ChromeProfileDetectionService.swift */,
+				B1000000000000000000029 /* ChromeWindowService.swift */,
+				B100000000000000000002A /* KeepOpenPanelHelper.swift */,
+				B100000000000000000002B /* TerminalCommandFingerprint.swift */,
+				B100000000000000000002C /* TerminalTabMatcher.swift */,
+				B1000000000000000000007 /* AppModel.swift */,
+				B100000000000000000002F /* AppModel+SessionV7.swift */,
+				B1000000000000000000030 /* AwakeTimeTracker.swift */,
+				B1000000000000000000031 /* RoleUsageStats.swift */,
+				B1000000000000000000032 /* MevinNotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000007 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000008 /* MenuRootView.swift */,
+				B1000000000000000000009 /* ProfileListView.swift */,
+				B1000000000000000000011 /* ProfileCard.swift */,
+				360E4B41A41143CB98767E22 /* SettingsView.swift */,
+				B45E275A0C474DB9B1569CE2 /* ActiveRoleSection.swift */,
+				F22DD90328BE4CDE9A748B89 /* MevinComponents.swift */,
+				B100000000000000000000A /* NewProfileView.swift */,
+				B1000000000000000000012 /* KeepOpenView.swift */,
+				B1000000000000000000019 /* AISettingsView.swift */,
+				B1000000000000000000034 /* SessionCardStyles.swift */,
+				B1000000000000000000035 /* SessionCardTimerPopup.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000008 /* EndSession */ = {
+			isa = PBXGroup;
+			children = (
+				B100000000000000000002D /* KeepOpenConfirmView.swift */,
+				B100000000000000000002E /* QuitAllTabsConfirmView.swift */,
+			);
+			path = EndSession;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000009 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				B100000000000000000000D /* ProfileBuilderView.swift */,
+				B100000000000000000001A /* ProposalSheet.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		D100000000000000000000A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000000000000000006 /* AppDelegate.swift */,
+				B100000000000000000000B /* PanelController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1000000000000000000001 /* Mevin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1000000000000000000003 /* Build configuration list for PBXNativeTarget "Mevin" */;
+			buildPhases = (
+				E1000000000000000000002 /* Sources */,
+				C1000000000000000000001 /* Frameworks */,
+				E1000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mevin;
+			productName = Mevin;
+			productReference = B1000000000000000000000 /* Mevin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1000000000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = F1000000000000000000001 /* Build configuration list for PBXProject "Mevin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1000000000000000000001;
+			productRefGroup = D1000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1000000000000000000001 /* Mevin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000000000000000000E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000000000000000000001 /* MevinApp.swift in Sources */,
+				A1000000000000000000002 /* Models.swift in Sources */,
+				A1000000000000000000010 /* ProfileColor.swift in Sources */,
+				A1000000000000000000011 /* ProfileCard.swift in Sources */,
+				1DE2490ADD5A4551938B63AE /* SettingsView.swift in Sources */,
+				A0A2DF2A8DE34C38B4ECB7D0 /* ActiveRoleSection.swift in Sources */,
+				960D702BF86E431298A83E1A /* MevinComponents.swift in Sources */,
+				A1000000000000000000012 /* KeepOpenView.swift in Sources */,
+				A1000000000000000000013 /* ClaudeService.swift in Sources */,
+				A1000000000000000000014 /* FigmaService.swift in Sources */,
+				A1000000000000000000015 /* KeychainService.swift in Sources */,
+				A1000000000000000000016 /* AIProvider.swift in Sources */,
+				A1000000000000000000017 /* AppMatcher.swift in Sources */,
+				A1000000000000000000018 /* VisionService.swift in Sources */,
+				A1000000000000000000019 /* AISettingsView.swift in Sources */,
+				A100000000000000000001A /* ProposalSheet.swift in Sources */,
+				A100000000000000000001B /* SwitchPlan.swift in Sources */,
+				A100000000000000000001C /* SlackService.swift in Sources */,
+				A100000000000000000001D /* SessionCapture.swift in Sources */,
+				96518A87C98F4EFD86408D3B /* SessionClock.swift in Sources */,
+				A100000000000000000001E /* FocusTracker.swift in Sources */,
+				A100000000000000000001F /* AppStateReader.swift in Sources */,
+				A1000000000000000000020 /* MevinConfig.swift in Sources */,
+				A1000000000000000000021 /* WindowService.swift in Sources */,
+				A1000000000000000000022 /* WindowClassifier.swift in Sources */,
+				A1000000000000000000023 /* AccessibilityWindowControl.swift in Sources */,
+				A1000000000000000000024 /* RoleTeardown.swift in Sources */,
+				A1000000000000000000025 /* TerminalStartupService.swift in Sources */,
+				A1000000000000000000026 /* ChromeProfileOCR.swift in Sources */,
+				A1000000000000000000027 /* ChromeProfileAccessibilityReader.swift in Sources */,
+				A1000000000000000000028 /* ChromeProfileDetectionService.swift in Sources */,
+				A1000000000000000000029 /* ChromeWindowService.swift in Sources */,
+				A100000000000000000002A /* KeepOpenPanelHelper.swift in Sources */,
+				A100000000000000000002B /* TerminalCommandFingerprint.swift in Sources */,
+				A100000000000000000002C /* TerminalTabMatcher.swift in Sources */,
+				A100000000000000000002D /* KeepOpenConfirmView.swift in Sources */,
+				A100000000000000000002E /* QuitAllTabsConfirmView.swift in Sources */,
+				A100000000000000000002F /* AppModel+SessionV7.swift in Sources */,
+				A1000000000000000000030 /* AwakeTimeTracker.swift in Sources */,
+				A1000000000000000000031 /* RoleUsageStats.swift in Sources */,
+				A1000000000000000000032 /* MevinNotificationService.swift in Sources */,
+				A1000000000000000000034 /* SessionCardStyles.swift in Sources */,
+				A1000000000000000000035 /* SessionCardTimerPopup.swift in Sources */,
+				A1000000000000000000003 /* JSONProfileStore.swift in Sources */,
+				A1000000000000000000004 /* LaunchService.swift in Sources */,
+				A1000000000000000000005 /* ChromeService.swift in Sources */,
+				A1000000000000000000006 /* AppDelegate.swift in Sources */,
+				A1000000000000000000007 /* AppModel.swift in Sources */,
+				A1000000000000000000008 /* MenuRootView.swift in Sources */,
+				A1000000000000000000009 /* ProfileListView.swift in Sources */,
+				A100000000000000000000A /* NewProfileView.swift in Sources */,
+				A100000000000000000000B /* PanelController.swift in Sources */,
+				A100000000000000000000D /* ProfileBuilderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1000000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F1000000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F1000000000000000000020 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Mevin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshit.mevin;
+				PRODUCT_NAME = Mevin;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F1000000000000000000021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Mevin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.toshit.mevin;
+				PRODUCT_NAME = Mevin;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1000000000000000000001 /* Build configuration list for PBXProject "Mevin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1000000000000000000010 /* Debug */,
+				F1000000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1000000000000000000003 /* Build configuration list for PBXNativeTarget "Mevin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1000000000000000000020 /* Debug */,
+				F1000000000000000000021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1000000000000000000000 /* Project object */;
+}

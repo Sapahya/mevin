@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Mevin</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.toshit.mevin</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Mevin</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Mevin reads open Chrome tab addresses when you capture what’s open, and runs saved commands in Terminal when a role starts.</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>Mevin minimizes or closes other apps’ windows when you switch roles, and restores minimized role apps when a role starts.</string>
+	<key>NSScreenCaptureUsageDescription</key>
+	<string>Mevin reads the Chrome window on screen to detect which profile folder you are using. Nothing is saved or sent online.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
